@@ -262,3 +262,42 @@ h1 {
         transform: translateY(-20px);
     }
 }
+
+/* TABLET */
+@media (max-width: 1024px){
+
+    .header{
+        padding: 0.5rem 2rem;
+    }
+
+    .menu{
+        gap: 1.5rem;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+
+}
+
+
+/* CELULAR */
+@media (max-width: 768px){
+
+    .header{
+        padding: 0.5rem 1.5rem;
+    }
+
+    .menu{
+        gap: 1rem;
+    }
+
+    .menu-link{
+        font-size: 0.9rem;
+    }
+
+    .logo img{
+        width: 8rem;
+    }
+
+}
