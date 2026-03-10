@@ -41,6 +41,10 @@
 
         </nav>
 
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+
     </section>
 
     <main id="inicio" class="cabecalho">
@@ -135,6 +139,13 @@
 
             window.open(url, '_blank')
         }
+
+        const hamburger = document.getElementById("hamburger");
+        const menu = document.getElementById("menu");
+
+        hamburger.addEventListener("click", () => {
+            menu.classList.toggle("active");
+        });
 
     </script>
 </body>
