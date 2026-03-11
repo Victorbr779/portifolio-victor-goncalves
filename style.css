@@ -112,7 +112,7 @@ h1 {
     font-size: 1.5rem;
     color: var(--claro);
 }
-
+ /* SOBRE */
 .sobre {
     padding: 6rem 2rem;
 }
@@ -137,7 +137,28 @@ h1 {
 .sobre-paragrafo {
     text-align: center;
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
+
+.sobre-icons{
+    padding-top: 1rem;    
+}
+
+.sobre-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 1rem;
+}
+
+.subtitulo-sobre {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* PROJETOS */
 
 .projetos {
     padding: 6rem 2rem;
