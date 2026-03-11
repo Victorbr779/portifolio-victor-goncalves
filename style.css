@@ -283,8 +283,7 @@ h1 {
     display: flex;
     gap: 10rem;
     justify-content: center;
-    
-    
+    flex-wrap: wrap;    
 }
 
 .logo-rodape {
@@ -294,7 +293,7 @@ h1 {
 
 .logo-rodape img {
     width: 10rem;
-    height: auto 0;
+    height: auto;
 }
 
 .rede-sociais-icons {
@@ -393,7 +392,6 @@ h4 {
 
 }
 
-/* RODAPÉ CELULAR */
 @media (max-width: 768px){
 
     .hamburger{
@@ -419,6 +417,7 @@ h4 {
 
 }
 
+/* RODAPÉ CELULAR */
 @media (max-width: 768px){
 
     .colunas-rodape{
