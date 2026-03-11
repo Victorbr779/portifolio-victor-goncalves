@@ -275,6 +275,7 @@ h1 {
     width: 100%;
     z-index: 1;
     padding: 5rem 12%;
+    border-top: 1px solid var(--vidro);
     
 }
 
@@ -299,13 +300,19 @@ h1 {
 .rede-sociais-icons {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
+    align-items: center;
 }
 
-.rede-sociais-icons img:hover {
-    background-color: var(--primaria);
+.rede-sociais-icons li {
+    padding: 4px 4px;
+    padding-bottom: 1px;
     border-radius: 50%;
+}
+
+.rede-sociais-icons li:hover {
+    background-color: var(--primaria);      
 }
 
 .rede-sociais-rodape {
@@ -314,10 +321,11 @@ h1 {
 }
 
 h4 {
-    padding-bottom: 1rem;
+    padding-bottom: 0.8rem;
     font-weight: bold;
     color: var(--primaria);
-    
+    font-size: 1.1rem;
+    text-align: left;    
 }
 
 .nav-bar-rodape {
@@ -406,6 +414,21 @@ h4 {
 
     .menu.active{
         display: flex;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    .colunas-rodape{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .rede-sociais-icons{
+        justify-content: center;
     }
 
 }
