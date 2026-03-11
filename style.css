@@ -151,6 +151,14 @@ h1 {
     margin: 0 auto;
 }
 
+.projetos-caixa a {
+    text-decoration: none;
+}
+
+.projetos-caixa h3 {
+    color: var(--claro);
+}
+
 .projetos-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
@@ -259,6 +267,73 @@ h1 {
     radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
     radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%),
     var(--maisEscuro);
+}
+
+.rodape{
+    background: rgba(15, 23, 42, 0.5);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    z-index: 1;
+    padding: 5rem 12%;
+    
+}
+
+.colunas-rodape{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    
+    
+}
+
+.logo-rodape {
+    display: flex;
+    list-style: none;
+}
+
+.logo-rodape img {
+    width: 10rem;
+    height: auto 0;
+}
+
+.rede-sociais-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+.rede-sociais-icons img:hover {
+    background-color: var(--primaria);
+    border-radius: 50%;
+}
+
+.rede-sociais-rodape {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    padding-bottom: 1rem;
+    font-weight: bold;
+    color: var(--primaria);
+    
+}
+
+.nav-bar-rodape {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.nav-bar-rodape a {
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+.nav-bar-rodape a:hover {
+    color: var(--claro);
 }
 
 @keyframes flutuar {
